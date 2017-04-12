@@ -1,39 +1,39 @@
 
 *{
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	  width:960px;
-	  margin: 0 auto;
-	  padding: 0;
-	  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	  color:#777777;
+      width:960px;
+      margin: 0 auto;
+      padding: 0;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      color:#777777;
 
 }
 
 
 h1 {
-	background-color: #4aaaa5;
-	margin: 0 50px;
-	padding: 20px;
-	font-family: "Georgia", Times, "Times New Roman", serif;
-	color: white;
-	float:left;
+    background-color: #4aaaa5;
+    margin: 0 50px;
+    padding: 20px;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: white;
+    float:left;
 } 
 
 h2 {
-	font-family: "Georgia", Times, "Times New Roman", serif;
-	color: #4aaaa5;
-	margin: 0;
-	padding:10px;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    margin: 0;
+    padding:10px;
 }
 
 h3 {
-	font-family: "Georgia", Times, "Times New Roman", serif;
-	color: #4aaaa5;
-	margin: 0;
-	padding:10px;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    margin: 0;
+    padding:10px;
 
 }
 
@@ -43,76 +43,76 @@ a:hover, a:visited, a:link, a:active
 }
 
 nav {
-	margin: 0 50px;
-	padding: 20px 20px 20px 250px;
-	float:right;
+    margin: 0 50px;
+    padding: 20px 20px 20px 250px;
+    float:right;
 }
 
 hr { clear:both;
-	margin: 0;
-	padding: 0;
-	border:0;
-	height:2px;
-	background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    border:0;
+    height:2px;
+    background-color: #ccc;
 }
 
 
 .container {
-	background-image:url("../images/pow-star.png");
-	margin-top: 0;
-	overflow: auto;
-	position: relative;
+    background-image:url("../images/pow-star.png");
+    margin-top: 0;
+    overflow: auto;
+    position: relative;
 }
 
 .left-wrapper {
-	background-color: #ffffff;
-	width:555px;
-	margin: 25px 5px 25px 50px;
-	padding:20px;
-	float:left;
+    background-color: #ffffff;
+    width:555px;
+    margin: 25px 5px 25px 50px;
+    padding:20px;
+    float:left;
 }
 
 #bio-image {
-	width:150px;
-	padding:15px;
-	float: left;
+    width:150px;
+    padding:15px;
+    float: left;
 }
 
 
 
 aside {
-	background-color: #ffffff;
-	width:260px;
-	margin: 25px 5px 25px 50px;
-	padding: 10px;
-	margin-left:5;
-	float: left;
-	text-align: center;
+    background-color: #ffffff;
+    width:260px;
+    margin: 25px 5px 25px 50px;
+    padding: 10px;
+    margin-left:5;
+    float: left;
+    text-align: center;
 }
 
 .foot {
-	position: fixed;
-	bottom: 0;
-	width:100%;
-	z-index: 3;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    z-index: 3;
 }
 .footer-bar { 
-	clear:both;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	height: 5px;
-	background-color: #4aaaa5;
+    clear:both;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 5px;
+    background-color: #4aaaa5;
 }
 
 footer {
-	background-color: #666;
-	margin:0;
-	padding:20px;
-	text-align: center;
-	font-size: 80%;
-	color:#ccc;
-	width:100%;
+    background-color: #666;
+    margin:0;
+    padding:20px;
+    text-align: center;
+    font-size: 80%;
+    color:#ccc;
+    width:100%;
 }
 
 form {
@@ -195,9 +195,9 @@ button {
 }
 
 .formInputLable {
-	margin: 10px;
-	padding:5px; 
-	width:100%;
+    margin: 10px;
+    padding:5px; 
+    width:100%;
 }
 
 #submitBtn {
@@ -208,31 +208,31 @@ button {
 }
 
 .thumbnail {
-	position: relative;
-	z-index: 1;
-	float:left;
-	margin:10px;
+    position: relative;
+    z-index: 1;
+    float:left;
+    margin:10px;
 }
 
 
 .thumbnail-lbl {
-	position: absolute;
-	top:100px;
-	z-index: 2;
-	
+    position: absolute;
+    top:100px;
+    z-index: 2;
+    
 }
 
 .thumb-name {
-	margin: 0;
-	padding:5px;
-	background-color: #4aaaa5;
-	color:#ffffff;
-	font-family: "Georgia", Times, "Times New Roman", serif;
-	border:0;
-	width:150px;
-	float:left;
+    margin: 0;
+    padding:5px;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    border:0;
+    width:150px;
+    float:left;
 }
 
 .clearfloat {
-	clear:both;
+    clear:both;
 }
