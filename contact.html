@@ -31,13 +31,22 @@
          <hr><br>
 
          <form action="mailto:marya.crigler@att.net" method="post" enctype="text/plain">
-           <p class="formInputLable"> Name</p>
-              <input class="formInput" type="text" name="fullName" size="50"><br>
-           <p class="formInputLable"> Email</p>
-              <input class="formInput" type="text" name="mail" size="50"><br>
-            <p class="formInputLable">Message</p>
-              <textarea class="formInput" name="comment" col="550" rows="10"></textarea><br><br>
-              <input id="submitBtn" type="submit" value="Submit">
+            <div>
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="user_name" placeholder="John Smith">
+            </div>
+            <div>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_mail" placeholder="example@gmail.com">
+             </div>
+            <div>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </div>
+
+            <div class="button">
+               <button type="submit">Submit</button>
+            </div>
          </form>
 
       </section>
