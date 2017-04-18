@@ -3,59 +3,117 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Week 1 Homework - Basic Portfolio ">
+      <meta name="description" content="Week 2 Homework - Bootstrap Portfolio ">
       <meta name="keywords" content="Marya, coding, bootcamp, part-time">
       <meta name="author" content="Marya Crigler">
-       <!-- Link Style Sheets -->
+<!-- Link to reset Style Sheets -->
       <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<!-- Link to the Bootstrap CDN -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!-- Link to my customized style sheet -->
       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-      <!--  title  -->
-      <title>Basic-Portfolio MDC</title>  
+<!--  title  -->
+      <title>About MDC</title>  
    </head>
    <body>
-      <!--Header  -->
-      <header>
-          <h1>Marya Crigler</h1>
-         <!--Navigation bar -->
-         <nav>
-            <a href="index.html">About</a> |
-            <a href="portfolio.html">Portfolio</a> |
-            <a href="contact.html">Contact</a> 
-        </nav>
-        <hr>
-      </header>
-      <!-- Main page content -->
+<!-- Nav Bar -->    
+      <nav class="navbar navbar-default">
       <div class="container">
-      <!-- Left side content -->
-      <section class="left-wrapper">
-         <h2>About Me</h2>
-         <hr><br>
-            <!-- Bio info  -->
-            <img id="bio-image" src="assets/images/mdcHeadshot.jpg" alt="Marya Crigler" >
-            <p id="bio">I am a native Texan, born on <a href=https://en.wikipedia.org/wiki/Fort_Bliss target="_blank">Fort Bliss</a> in El Paso, and as an "Army brat" I have live across the US and in several location in Germany. I am a proud graduate of Eliison High School in Killeen, Texas "Go Eagles" and of the University of Texas at Austin <a id="longhorn" href="http://www.utexas.edu/alumni-resources" target="_blank"> "Hook Em Horns".</a> </p>
-            <p>I have worked for the Travis CAD for more than 25 year. Here is a video that explains a little bit about what we do.
-            <iframe src="https://player.vimeo.com/video/209801778" width="480" height="270"></iframe></p>
-            <br>
-          <!-- List of other random facts -->
-            <p> Other random facts:</p>
-            <ul>
-               <li>I am an Crock Pot guru and an expert at baking with liquor. </li>
-               <li>My dog is named Pepsi which matches her effervescent personality (she is a big goofy ball of energy). </li>
-               <li>I'd rather read a book than watch TV, and I thank the heavens for my Kindle Reader because it has decluttered my house. </li>
-            </ul>
-      </section>
-      <!-- Right sidebar -->
-      <aside>
-         <h3> Connect with Me </h3>
-         <hr><br>
-         <a href="https://github.com/mcrigler/Basic-Portfolio" target="_blank"> <img class="icons" src="assets/images/1491618041_github2.png" alt="GitHub"></a>
-         <a href="https://www.linkedin.com/in/marya-crigler-87925613a" target="_blank"> <img class="icons" src="assets/images/1491617977_linkedin.png" alt="LinkedIn"></a>
-         <a href="#" target="_blank"> <img class="icons" src="assets/images/1491618106_stackoverflow.png" alt="StackOverflow"></a>
-      </aside>
-      <!--Footer  -->
-      <hr class="footer-bar">
+<!-- Row 1 of 1 -->
+         <div class="row">
+<!-- Col 1 of 2 nav bar -->
+            <div class="col-md-6">
+               <div class="navbar-header">
+                  <h1>Marya Crigler</h1>
+               </div>
+            </div> <!-- End Col 1 of 2 -->
+<!-- Col 2 of 2 Nav Bar -->
+            <div class="col-md-6">
+               <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-left">
+                     <li><a href="index.html"> About </a></li>
+                     <li><a href="portfolio.html"> Portfolio </a></li>
+                     <li><a href="contact.html"> Contact</a></li>
+                  </ul>
+               </div>
+            </div> <!-- End Col 2 of 2 -->
+         </div> <!-- End Row 1 of 1 Nav Bar -->
+      </div> <!-- End of container for Nav Bar  -->
+      </nav>
+<!-- Main Section content -->
+      <div class="container main-wrapper">
+<!-- Row 1 of 1 Main Section -->
+         <div class="row">
+<!-- Col 1 of 2  for Bio info-->
+            <div class="col-md-8">
+               <header>
+                  <h2>About Me </h2>
+                  <hr>
+               </header>
+   <!--Sub Row 1 of 3 for bio  -->
+               <div class="row"> 
+   <!-- Sub Col 1 of 2 for image -->
+                  <div class="col-md-3">
+                     <img id="bio-image" src="assets/images/mdcHeadshot.jpg" alt="Marya Crigler" >
+                  </div>
+   <!-- Sub col 2 of 2 for bio-->
+                  <div class="col-md-9">
+                     <p id="bio">I am a native Texan, born on <a href=https://en.wikipedia.org/wiki/Fort_Bliss target="_blank">Fort Bliss</a> in El Paso, and as an "Army brat" I have live across the US and in several location in Germany. I am a proud graduate of Eliison High School in Killeen, Texas "Go Eagles" and of the University of Texas at Austin <a id="longhorn" href="http://www.utexas.edu/alumni-resources" target="_blank"> "Hook Em Horns".</a> </p>
+                  </div>
+               </div>  <!-- Sub row 1 of 3 -->
+   <!-- Sub Row 2 of 3 for video  -->
+               <div class="row">
+   <!-- Sub Col 1 of 1 for video -->
+                  <div class="col-md-12">
+                     <br><p>I have worked for the Travis CAD for more than 25 year. Here is a video that explains a little bit about what we do.
+                     <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/209801778""></iframe>
+                        <br>
+                     </div>
+                  </div> <!-- End Sub Col 1 of 1 Video -->
+               </div> <!-- End Sub Row 2 of 3 -->
+   <!-- Sub Row 3 of 3 for list -->
+             <div class="row">
+   <!-- Sub Col 1 of 1 for list -->
+                  <div class="col-md-12">
+                     <div class="panel panel-default">
+                        <br>
+                        <div class="panel-heading">
+                           <h4 class="panel-title">Other Random Facts:</h4>
+                        </div>
+                        <div class="panel-body">
+                           <ul class="list-group">
+                              <li class="list-group-item">I am an Crock Pot guru and an expert at baking with liquor. </li>
+                              <li class="list-group-item">My dog is named Pepsi which matches her effervescent personality (she is a big goofy ball of energy). </li>
+                              <li class="list-group-item">I'd rather read a book than watch TV, and I thank the heavens for my Kindle Reader because it has decluttered my house.</li>
+                           </ul>
+                        </div>
+                     </div> <!-- End panel default -->
+                  </div> <!-- End Sub Col 1 of 1 List -->
+               </div> <!-- End Sub Row 3 of 3 -->
+            </div> <!-- Close Col 1 of 2 -->
+<!-- Col 2 of 2  Connect with Me-->
+            <div class="col-md-4">
+               <div class="panel panel-default">
+                  <div class="panel-heading connect-hdr">
+                      <h3> Connect with Me</h3>
+                  </div>
+                  <div class="panel-body">
+                     <div class="connect-icons">
+                        <a href="https://github.com/mcrigler/Basic-Portfolio" target="_blank"> <img class="icon-img" src="assets/images/1491618041_github2.png" alt="GitHub"></a>
+                        <a href="https://www.linkedin.com/in/marya-crigler-87925613a" target="_blank"> <img class="icon-img" src="assets/images/1491617977_linkedin.png" alt="LinkedIn"></a>
+                        <a href="#" target="_blank"> <img class="icon-img" src="assets/images/1491618106_stackoverflow.png" alt="StackOverflow"></a>
+                     </div>
+                  </div>
+               </div>  <!-- Close panel default-->
+            </div> <!-- Close Col 2 of 2 Connect with Me-->
+         </div> <!-- Close Row 1 of 1 Main Section -->
+      </div>   <!-- Close Container Main Content Section -->
       <footer>&copy;Copyright 2017 Marya Crigler
       </footer>
-     </div>
+<!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
    </body>
-</html>
+   </html>  
