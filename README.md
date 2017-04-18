@@ -1,2 +1,2 @@
-# mcrigler.github.io
-Publishing webpages
+# Bootstrap-Portfolio
+Bootstrap Portfolio Homework Week 2
