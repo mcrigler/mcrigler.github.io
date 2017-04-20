@@ -8,7 +8,6 @@ body {
   background-image:url("../images/pow-star.png");
 }
 
-
 h1 {
     background-color: #4aaaa5;
     font-family: "Georgia", Times, "Times New Roman", serif;
@@ -79,8 +78,8 @@ nav a {
 }
 
 #bio-image {
-    width:150px;
-    height: 150px;
+    width:125px;
+    height: 125px;
 }
 
 .icon-img{
@@ -103,7 +102,6 @@ nav a {
 }
 
 .submit-btn1 {
-  
     margin-left: .5em;
     background-color: #4aaaa5;
     color:#ffffff;
@@ -127,16 +125,13 @@ nav a {
   color: #ccc;
 }
 
-
 /* portfolio page */
-
 .work {
   position: relative;
   margin: 0;
 }
 
 .work:nth-child(even) {
-  
 }
 
 .work img {
