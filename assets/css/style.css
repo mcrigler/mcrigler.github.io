@@ -1,156 +1,54 @@
-
-/*  Standard Element formatting  -- set default for reset items 
-    -----the following elements and classes are the format template for all pages on the website 
-*/
-body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color:#777777;
-  background-image:url("../images/pow-star.png");
-}
-
-h1 {
-    background-color: #4aaaa5;
-    font-family: "Georgia", Times, "Times New Roman", serif;
-    color: white;
-    font-size: 2.5em;
-    font-weight: bold;
-    padding: 20px;
-    margin: 0;
-} 
-
-h2 {
-    font-family: "Georgia", Times, "Times New Roman", serif;
-    color: #4aaaa5;
-    font-size: 2em;
-    font-weight: bold;
-}
-
-h3 {
-    font-family: "Georgia", Times, "Times New Roman", serif;
-    color: #4aaaa5;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-hr { 
-    height:2px;
-    background-color: #ccc;
-}
-
 footer {
     background-color: #666;
     color:#ccc;
-    border-top: 5px solid #4aaaa5;
+    border-top: 5px solid #E82C0C;
     text-align: center;
     font-size: 80%;
-    padding:20px 0;
+    padding: 10px 0;
 }
 
-nav a {
-  display: inline-block;
-  padding-left: 15px;
-  margin-left: 15px;
-  line-height: 18px;
-  color: #999;
-  text-decoration: none;
-  border-left: 1px solid #efefef;
+h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
 }
 
-.navbar {
-  background: #fff;
+h3 {
+    font-size: 1.25em;
+    margin-top: 10px;
 }
 
-.panel {
-  border:none;
+#user-text{
+    color: #093987;
 }
 
-.panel-heading {
-  text-align: center;
-  border-bottom: 3px solid transparent;
+#user-wrong{
+    color:#87090f;
 }
 
-.panel-default>.panel-heading {
-  background-color: #fff;
+.logo {
+    width: 125px;
 }
 
-.main-wrapper {
-  background: #fff;
+.hangJumbotron {
+    margin: 10px;
+    padding: 10px 60px;
 }
 
-#bio-image {
-    width:125px;
-    height: 125px;
+.hangbtn {
+    font-size: 1.75em;
+    padding: 5px 40px;
+    margin: 5px;
 }
 
-.icon-img{
-    width: 50px;
-    height: 50px;
+.s-hangmanImage {
+    margin: 10px;
 }
 
-/* set the color to burnt orange  */
-#longhorn {
-  color: #BF5700
-}
-
-.connect-icons {
-  text-align: center;
-}
-
-/* the submit button  */
-.button-wrapper {
-   padding-left: 2px; 
-}
-
-.submit-btn1 {
-    margin-left: .5em;
-    background-color: #4aaaa5;
-    color:#ffffff;
-    padding:10px;
-    margin:10px;
-    width:100px;
-    border:none;
-}
-
-/* placeholder hint in the input fields  */
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #ccc;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: #ccc;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: #ccc;
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: #ccc;
-}
-
-/* portfolio page */
-.work {
-  position: relative;
-  margin: 0;
-}
-
-.work:nth-child(even) {
-}
-
-.work img {
-  width: 80%;
-  border: 0 none;
-  margin-bottom: 20px;
-  opacity: 0.8;
-}
-
-.work h4 {
-  position: absolute;
-  bottom: 20px;
-  width: 80%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: #fff;
-  text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
+.s-hangmanPlaceholder {
+    font-size: 1.75em;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: block;
+    border-bottom: 3px;
 }

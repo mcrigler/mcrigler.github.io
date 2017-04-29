@@ -1,2 +1,2 @@
-# Bootstrap-Portfolio
-Bootstrap Portfolio Homework Week 2
+# Hangman-Game
+Hangman Game Homework Week 3
