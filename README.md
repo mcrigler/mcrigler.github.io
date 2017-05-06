@@ -1,2 +1,2 @@
-# Hangman-Game
-Hangman Game Homework Week 3
+# week-4-game
+Homework Week 4
