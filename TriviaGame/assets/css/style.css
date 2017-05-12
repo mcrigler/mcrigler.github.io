@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    background-image: url("../images/bg1.jpg")
+    
+    
+}
+
+.container {
+    background-color: #ffffff;
+    border-style:  outset;
+    border-width: 5px 10px;
+    border-color: #15b3ff;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+
+.pgHeader {
+    margin-top : 0px;
+    margin-bottom: 5px;
+}
+  
+h1 {
+    margin-top:10px;
+    margin-bottom: 5px;
+    color:#15b3ff;
+}
+
+h2 {
+    margin:0;
+
+}
+
+h3 {
+    margin:0;
+}
+
+h1 small {
+    color:#C76612;
+}
+
+.q-answer {
+    box-shadow:none;
+    padding: 5px;
+}
+
+
+.q-answer:hover, .q-answer:active {
+  box-shadow: inset 0 0 10px #FFBF41;
+}
+
+#restart {
+    background-color: "green";
+}
+
+.ansFeedback {
+    box-shadow: inset 0 0 10px #FF777F;
+    padding: 10px;
+}
