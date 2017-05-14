@@ -40,7 +40,7 @@
     function getMovieData(){
       console.log("Get Movie Data");
       $("#movie-data").empty();
-      var queryURLmovieData = "http://www.omdbapi.com/?t=" + movieSelected + "&y=&plot=short&r=json";
+      var queryURLmovieData = "https://www.omdbapi.com/?t=" + movieSelected + "&y=&plot=short&r=json";
       console.log("The selected movie data URL is: " + queryURLmovieData);
 
       $.ajax({
@@ -81,7 +81,7 @@
     function getMovieImages(){
      console.log("Get Movie Images");
       $("#movie-images").empty();
-      var queryURLmovieImage = "http://api.giphy.com/v1/gifs/search?q=" +
+      var queryURLmovieImage = "https://api.giphy.com/v1/gifs/search?q=" +
       movieSelected + "&api_key=dc6zaTOxFJmzC" + "&limit="+ movieLimit;
       console.log("The selected movie images URL is: " + queryURLmovieImage)
 
