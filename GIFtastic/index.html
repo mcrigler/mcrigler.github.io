@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Week 6 Homework - GIFtastic">
+      <meta name="keywords" content="Marya, coding, bootcamp, part-time">
+      <meta name="author" content="Marya Crigler">
+<!-- Link to reset Style Sheets -->
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<!-- Link to the Bootstrap CDN -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!-- Link to my customized style sheet -->
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- Linkk to jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Google Font -->
+      <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+<!--  title  -->
+      <title>GIFtastic MDC</title>  
+   </head>
+   <body>
+   <div class="container">
+   <!--  row 1 of  -Header  --> 
+      <div class="row">
+         <h1> <img src="assets/images/movie2.jpg"><span class="movieHeader">GIFtastic</span> - Movie style</h1>
+         <hr>
+      </div>
+      
+   <!-- row 2 of   - movie buttons  -->
+      <div class="row">
+         <div id="movie-buttons"></div>
+      </div>
+
+   <!--  row 3 of   - movie input  -->
+      <div class="row">
+         <div id="movie-input">
+            <form id="movie-form">
+               <label for="movie-add">Add Your Own Movie</label>
+               <input type="text" id="movie-add">
+               <input id="add-movie" type="submit" value="Add">
+            </form>
+         </div>
+      </div>
+
+   <!--  row 4 of    - movie data -->
+      <div class="row">
+         <div id="movie-data"></div>
+      </div>
+
+
+   <!--  row 5 of    - movie images -->
+      <div class="row">
+         <div id="movie-images"></div>
+      </div>
+
+
+
+
+
+<!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ <!--GIFtastic javascript  -->
+        <script type="text/javascript" src="assets/javascript/movie.js"> </script>  
+   </body>
+   </html>
