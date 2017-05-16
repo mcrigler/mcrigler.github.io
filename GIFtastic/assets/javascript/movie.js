@@ -7,7 +7,7 @@
     // --------------------------------------------- //
     // ------  Initialize Global Variables --------  //
 
-    var moviesArray = ["Kung Fu Hustle", "The Fifth Element", "Shawshank Redemption", "Fargo", "Die Hard", "Pulp Fiction", 
+    var topicsArray = ["Kung Fu Hustle", "The Fifth Element", "Shawshank Redemption", "Fargo", "Die Hard", "Pulp Fiction", 
                        "Enter the Dragon", "The Last Dragon", "Blazing Saddles", "History of the World, Part I", "Young Frankenstein",
                        "Hot Fuzz", "Godfather",  "Guardians of the Galaxy", "True Lies", "Matrix",   "Miss Sloane", "Hidden Figures"]; 
     var movieSelected = "";
@@ -22,13 +22,13 @@
     function buildButtons(){
 
       $("#movie-buttons").empty();
-      console.log("Build Buttons for: " + moviesArray);
+      console.log("Build Buttons for: " + topicsArray);
 
-      for (var i=0; i < moviesArray.length; i++) {
+      for (var i=0; i < topicsArray.length; i++) {
         var mbutton = $("<button>");
           mbutton.addClass("movie-btn btn");
-          mbutton.attr("data-name", moviesArray[i]);
-          mbutton.text(moviesArray[i]);
+          mbutton.attr("data-name", topicsArray[i]);
+          mbutton.text(topicsArray[i]);
 
         $("#movie-buttons").append(mbutton);
       }
@@ -125,8 +125,8 @@
     $("#add-movie").on("click", function(event){
       event.preventDefault();
       var movieAdded = $("#movie-add").val().trim();
-      moviesArray.push(movieAdded);
-      console.log("New Movies List: " + moviesArray);
+      topicsArray.push(movieAdded);
+      console.log("New Movies List: " + topicsArray);
       buildButtons();
     })
 
